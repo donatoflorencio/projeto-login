@@ -30,7 +30,7 @@ section#login {
     background-color: #fff;
     border-radius: 20px;
     width: 300px;
-    height: 530px;  
+    height: 515px;  
     overflow: hidden;
 
     top: 50%;
@@ -107,11 +107,13 @@ form > input[type=submit] {
     background-color: #2d6462;
     color: #fff;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: bold; 
+    margin: auto;
+    margin-bottom: 3px;
+    margin-top: 10px;
     border: none;
-    border-radius: 5px;
-    margin-top: 25px;
-    width: 100%;
+    border-radius: 13px;
+    width: 70%;
     height: 40px;
     cursor: pointer;
 }
@@ -126,14 +128,15 @@ form > a.botao {
     background-color: #fff;
     color: #295d5b;
     font-size: 1em;
-    font-weight: bolder;
-    margin-top: 5px;
+    font-weight: bolder; 
+    margin: auto;
     padding-top: 7px;
     border: 1.5px solid #54bdb9;
-    border-radius: 7px;
+    border-radius: 15px;
     text-align: center;
     text-decoration: none;
-    width: 100%;
+   
+    width: 70%;
     height: 40px;
 }
 
